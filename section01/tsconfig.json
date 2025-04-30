@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 컴파일되는 자바스크립트의 버전
+    "module": "ESNext", // 컴파일되는 모듈 시스템
+    "skipLibCheck": true, // @types 버전 20 이상 오류 방지
+    "outDir": "dist", // 컴파일된 파일 저장 위치
+    "strict": true // 엄격한 타입 검사 (타입 추론 오류 방지)
+  },
+  "include": ["src/**/*"], // 컴파일 할 파일 범위 (src 폴더 안의 모든 파일)
+  "exclude": ["node_modules", "dist"] // 컴파일 제외할 파일 범위 (node_modules, dist)
+}
