@@ -29,6 +29,8 @@ let dog: Dog = {
 animal = dog;
 
 // down cast
-dog = animal;
+// dog = animal;
 
 /* ------------------------ */
+
+// 초과 프로퍼티 검사
